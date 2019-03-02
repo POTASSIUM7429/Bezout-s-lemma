@@ -44,7 +44,7 @@ int main()
 		s[i + 2] = s[i] - (s[i + 1] * q[n - 2 - i]);
 		printf("[INFO] S%d=S%d-(S%d*q%d):%d=%d-(%d*%d)\n", i + 2, i, i + 1, n - 2 - i, s[i + 2], s[i], s[i + 1], q[n - 2 - i]);
 	}
-	printf("[SUCCESS] %d*%d+%d*%d=%d\n", a, s[n - 2], b, s[n - 1], r[n]);
+	printf("[SUCCESS] %d*%d+%d*%d=%d\n", a, s[n - 2], b, s[n - 1], r[n - 1]);
 	system("PAUSE");
 	return 0;
 }
